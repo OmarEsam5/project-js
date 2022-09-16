@@ -116,7 +116,7 @@ function setBck () {
 
             let random = Math.floor(Math.random() * imges.length)
 
-            backgroundImages.style.backgroundImage = `url(../images/${imges[random]})`
+            backgroundImages.style.backgroundImage = `url('url("imgs/' + imgsArray[randomNumber] + '")')`
 
         }, 6000)
     }
